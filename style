@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(177, 51%, 20%);
+ 
+    
+}
+.container{
+    background-color: hsl(59, 87%, 15%);
+    font-family: 'Overpass', sans-serif;
+    margin: 0 auto;
+    width:400px ;
+    padding:25px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+h1{
+    
+    color: white;
+}
+
+.btn button , img{
+     border-radius: 50%;
+    background-color: hsl(177, 94%, 12%);
+    padding: 13px;
+    border: none;
+      color: hsl(66, 100%, 52%);
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+.btn button{
+ 
+    font-size: 18px;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    
+}
+.btn button:hover{
+    background-color: hsl(307, 88%, 38%);
+    color: rgb(0, 0, 0);
+    transition: all 200ms ease-in-out;
+}
+.btn button:focus{
+    background-color:  hsl(304, 94%, 60%);
+    color: rgb(0, 0, 0);
+  
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 55%, 70%);
+}
+.sub{
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    color: rgb(128, 38, 155);
+    background-color: hsl(125, 88%, 63%);
+    border: none;
+    border-radius: 18px;
+    padding:10px 12px 6px 12px ;
+    width:100% ;
+    letter-spacing: 2px;
+}
+.sub:hover{
+   color: rgb(128, 38, 155);
+    background-color: white;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#num{
+    color: hsl(96, 97%, 53%);
+    background-color: hsl(210, 16%, 24%);
+    width:200px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px 6px 10px;
+display: block;
+margin: 0 auto;
+}
